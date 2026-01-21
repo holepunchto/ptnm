@@ -1,0 +1,21 @@
+{
+  "name": "ptnm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Object Pattern Matching",
+  "files": [],
+  "scripts": {
+    "test:gen": "brittle -r test/all.js test/*.test.js",
+    "test": "brittle --coverage test/all.js",
+    "lint": "prettier --check . && lunte",
+    "format": "prettier --write . && lunte --fix"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "lunte": "^1.0.0",
+    "prettier": "^3.6.2",
+    "prettier-config-holepunch": "^2.0.0"
+  },
+  "author": "Holepunch Inc",
+  "license": "Apache-2.0"
+}
